@@ -39,11 +39,10 @@ class Landing extends Component {
     });
 
     return (
-      <div className="todo-container">
-        <input type="text" placeholder="enter you data" onKeyPress={this.addTodo.bind(this, this.state.items)} />
-        <ul className="todo-list">
-          {todos}
-        </ul>
+      <div className="container">
+        <div is wrap>
+          
+        </div>
       </div>
     )
   }
