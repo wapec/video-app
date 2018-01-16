@@ -1,22 +1,5 @@
-// *
-body, html {
-  width: 100%;
-  height: 100%;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: fit-content;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
-
 // wrap
-[wrap] {
+[wrap], .wrap {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -28,112 +11,117 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-  [wrap] {
+  [wrap], .wrap {
     padding: 0 20px;
   }
 }
 
-[light-color] {
+[light-color], .light-color {
   background-color: #eeecf1;
 }
 
-[screen-width] {
+[screen-width], .screen-width {
   width: 100vw;
 }
 
-[width] {
+[width], .width {
   width: 100%;
+  height: 100%;
 }
 
 // text
-[text-center] {
+[text-center], .text-center {
   text-align: center;
 }
 
 // flex
-[flex] {
+[flex], .flex {
   display: flex;
 }
 
 // justify
-[justify-center] {
+[justify-center], .justify-center {
   justify-content: center;
 }
 
-[justify-between] {
+[justify-between], .justify-center {
   justify-content: space-between;
 }
 
-[justify-around] {
+[justify-around], .justify-center {
   justify-content: space-around;
 }
 
-[justify-start] {
+[justify-start], .justify-start {
   justify-content: flex-start;
 }
 
-[justify-end] {
+[justify-end], .justify-end {
   justify-content: flex-end;
 }
 
-[justify-evenly] {
+[justify-evenly], .justify-evenly {
   justify-content: space-evenly;
 }
 
 // align
-[align-center] {
+[align-center], .align-center {
   align-items: center;
 }
 
-[align-self-start] {
+[align-self-start], .align-self-start {
   align-items: self-start;
 }
 
-[align-selt-end] {
+[align-selt-end], .align-selt-end {
   align-items: self-end;
 }
 
-[align-start] {
+[align-start], .align-start {
   align-items: flex-start;
 }
 
-[align-end] {
+[align-end], .align-end {
   align-items: flex-end;
 }
 
+[align-stretch], .align-stretch {
+  align-items: stretch;
+}
+
 // direction
-[direction-column] {
+[direction-column], .direction-column {
   flex-direction: column;
 }
 
-[direction-row] {
+[direction-row], .direction-row {
   flex-direction: row;
 }
 
 // flex wrap
-[wrap-wrap] {
+[wrap-wrap], .wrap-wrap {
   flex-wrap: wrap;
 }
 
-[wrap-nowrap] {
+[wrap-nowrap], .wrap-nowrap {
   flex-wrap: nowrap;
 }
 
 // no
-[no-margin] {
+[no-margin], .no-margin {
   margin: 0;
 }
 
-[no-padding] {
+[no-padding], .no-padding {
   padding: 0;
 }
 
-[no-display] {
+[no-display], .no-display {
   display: none !important;
 }
 
 // transition
-[transition] {
+[transition], .transition {
   * {
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;

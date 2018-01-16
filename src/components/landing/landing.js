@@ -40,7 +40,7 @@ class Landing extends Component {
 
     return (
       <div className="container">
-        <div is wrap>
+        <div className="wrap">
           
         </div>
       </div>
